@@ -92,11 +92,14 @@
                         </h1>                        
                     </div>
                     <figure>
-                        <img id="simulacion" src="imagenes/Arduino.jpg"  width="800" height="600">
+                        <img id="simulacion" src="imagenes/proyecto.jpg"  width="800" height="600">
                     </figure>
 
-                    <button id="boton1">Raspi!</button>
-                    <button id="boton2">Arduino!</button>
+                    <button id="boton1">2 Nodos</button>
+                    <button id="boton2">3 Nodos</button>
+					<button id="boton3">4 Nodos</button>
+					<button id="boton4">5 Nodos</button>
+					<button id="boton5">6 Nodos</button>
 
                        
                               
@@ -120,6 +123,15 @@
         });
          $('#boton2').on('click', function(){
             $('#simulacion').attr("src", "imagenes/Arduino.jpg");
+        });
+        $('#boton3').on('click', function(){
+            $('#simulacion').attr("src", "imagenes/4Nodos.gif");
+        });
+		$('#boton4').on('click', function(){
+            $('#simulacion').attr("src", "imagenes/5Nodos.gif");
+        });
+		$('#boton5').on('click', function(){
+            $('#simulacion').attr("src", "imagenes/6Nodos.gif");
         });
     });
 </script>
